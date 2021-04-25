@@ -23,3 +23,5 @@ APPLICATION ASSUMPTIONS AND LIMITATIONS:
 2. I used the Free API of https://free.currencyconverterapi.com/ as this has more currencies as compare to what https://exchangeratesapi.io/ offers.
 3. The application is limited to converting up to 7 currencies. This is due to the external APIs being limited to certain currencies available only for the free account. Other currencies are available only in paid accounts. 
 4. I implemented Simple CORS Filter in order for the front-end, when run in local, can call the back-end API without any breach in the security.
+5. The default server port is 8080. 
+6. External API URL and Access Key are found in application.properties
